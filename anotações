@@ -1,0 +1,28 @@
+$ cd <PASTA-DO-PROJETO>
+
+$ yarn init
+$ yarn add @babel/cli
+$ yarn add @babel/preset-env
+$ yarn add @babel/core
+
+*criar arquivo .gitigonore e adicionar linha:
+node_modules/
+
+*criar arquivo .babelrc e adicionar:
+
+{
+  "presets": ["@babel/preset-env"]
+}
+
+*criar index.html com conteudo:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TITULO</title>
+  </head>
+  <body>
+    <script src="./main.js"></script>
+  </body>
+</html>
+
