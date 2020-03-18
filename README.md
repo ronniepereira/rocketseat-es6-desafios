@@ -1,4 +1,4 @@
 # Rocketseat-es6-desafios
 
-# Objetivo:
+## Objetivo:
 Armazenar desafios realizados no curso de Javascript ES6 da RcoketSeat
